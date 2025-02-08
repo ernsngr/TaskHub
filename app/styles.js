@@ -2,10 +2,11 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     full_container:{
-        flex: 1,
+        width: "100%",
+        height: "100%",
         alignItems: "center",
-        backgroundColor: "#fff"
-    },
+        backgroundColor: "#574964"
+        },
     auth_icons:{
         width: "90%",
         height: "45%",
@@ -62,7 +63,7 @@ const styles = StyleSheet.create({
         paddingRight: 20,
         fontSize: 17,
         letterSpacing: 0.4,
-        marginTop: 10,
+        marginTop: 30,
         marginBottom: 10,
     },
     // Pages
@@ -101,6 +102,51 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1.5,
         borderColor: "#909090",
         borderRadius: 1
+    },
+    tasks_main:{
+        width: "100%",
+        height: "100%",
+        paddingTop: 30,
+        
+    },
+    task_box:{
+        width: "90%",
+        height: 140,
+        backgroundColor: "#FFDAB3",
+        borderRadius: 30,
+        padding: 15,
+        justifyContent: "space-between",
+        marginBottom: 15,
+        shadowColor: "#000000",
+        shadowOffset: {
+        width: 0,
+        height: 9,
+        },
+        shadowOpacity:  0.22,
+        shadowRadius: 9.22,
+        elevation: 12
+    },
+    task_header:{
+        fontSize: 24,
+        fontWeight:"bold",
+        marginLeft: 5,
+        letterSpacing: 0.8
+    },
+    task_details:{
+        width: "90%",
+        height: "auto",
+        marginLeft: 7,
+
+    },
+    task_bottom:{
+        width: "90%",
+        height: "auto",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginLeft: 5
+    },
+    task_bottom_text:{
+        letterSpacing: 0.8
     }
 })
 

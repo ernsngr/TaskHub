@@ -9,7 +9,7 @@ import UserStack from "./app/stacks/UserStack";
 export default function App() {
   return (
       <NavigationContainer>
-        <UserStack/>
+        <LeadStack/>
       </NavigationContainer>
   );
 }
